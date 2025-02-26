@@ -31,6 +31,12 @@ logging:
   level:
     root: info
 
-project-service:
-  host: localhost
-  port: 8082
+internal-services:
+  project-service:
+    host: localhost
+    port: 8082
+  user-service:
+    host: localhost
+    port: 8080
+
+external-services:
