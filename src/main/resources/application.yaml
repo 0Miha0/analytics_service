@@ -23,6 +23,12 @@ spring:
       host: localhost
       channel:
         profile-view: profile_view_channel
+        mentorship-requested: mentorship_requested_channel
+        post-view: post_view_channel
+        comment: comment-event-channel
+        like: like-event-channel
+        completed-task: completed_task_channel
+        project_views: project_views_channel
 
 server:
   port: 8086
